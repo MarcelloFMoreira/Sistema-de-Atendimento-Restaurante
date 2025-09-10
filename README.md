@@ -31,6 +31,16 @@ Sistema de gerenciamento de atendimento para restaurantes desenvolvido em Java, 
 - Oracle Database
 - Driver JDBC Oracle
 
+# Como executar
+## Caso não tenha faça o download do driver JDBC
+- https://www.oracle.com/database/technologies/appdev/jdbc-downloads.html
+
+## Adicione o jar ao seu projeto no IntelliJ
+- Clique com botão direito no projeto → Open Module Settings
+- Vá em Libraries + Java
+- Selecione o arquivo ojdbc.jar baixado
+- Clique em OK
+
 # Autor
 Desenvolvido por Marcello de Freitas Moreira - RM557531 e Guilherme flores pereira de almeida RM554948
 
