@@ -52,7 +52,7 @@ O sistema permite abrir chamados, atribuí-los a atendentes, resolver problemas 
 
 1. Clone o repositório:
    ```bash
-   git clone <repositorio>
+   git clone https://github.com/MarcelloFMoreira/Sistema-de-Atendimento-Restaurante.git
    cd sistema-atendimento
    ```
    
@@ -63,21 +63,21 @@ O sistema permite abrir chamados, atribuí-los a atendentes, resolver problemas 
    private static final String PASSWORD = "senha";
    ```
    
-3. Compile e execute a aplicação:
+3. Caso não tenha faça o download do driver JDBC
+   - https://www.oracle.com/database/technologies/appdev/jdbc-downloads.html
+
+4. Adicione o jar ao seu projeto no IntelliJ
+   - Clique com botão direito no projeto → Open Module Settings
+   - Vá em Libraries + Java
+   - Selecione o arquivo ojdbc.jar baixado
+   - Clique em OK
+
+5. Compile e execute a aplicação:
    ```bash
    javac Main.java
    java Main
    ```
    
-### Caso não tenha faça o download do driver JDBC
-- https://www.oracle.com/database/technologies/appdev/jdbc-downloads.html
-
-### Adicione o jar ao seu projeto no IntelliJ
-- Clique com botão direito no projeto → Open Module Settings
-- Vá em Libraries + Java
-- Selecione o arquivo ojdbc.jar baixado
-- Clique em OK
-
 ---
 
 ## Autor
@@ -87,5 +87,5 @@ Desenvolvido por Marcello de Freitas Moreira - RM557531 e Guilherme flores perei
 
 ## 📜 Licença
 
-Este projeto está licenciado sob a **MIT License** – veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+Este projeto está licenciado sob a **MIT License**.
 
