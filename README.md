@@ -15,12 +15,15 @@ O sistema permite abrir chamados, atribuí-los a atendentes, resolver problemas 
 - Tratamento de erros com **Exceções Customizadas** (`AtendimentoException`).  
 
 ---
+
 ## 🛠️ Tecnologias
 - **Java 11+** – Linguagem principal  
 - **Oracle Database** – Banco de dados relacional  
 - **JDBC** – Conexão com o banco  
 - **Padrões de Projeto** – DAO, Singleton, Service
+
 ---
+
 ## 🏗️ Arquitetura do Projeto
 
    ```bash
@@ -42,6 +45,8 @@ O sistema permite abrir chamados, atribuí-los a atendentes, resolver problemas 
 - Java JDK 11+
 - Oracle Database
 - Driver JDBC Oracle
+
+---
 
 # ▶️ Como executar 
 
@@ -73,9 +78,12 @@ O sistema permite abrir chamados, atribuí-los a atendentes, resolver problemas 
 - Selecione o arquivo ojdbc.jar baixado
 - Clique em OK
 
+---
 
 ## Autor
 Desenvolvido por Marcello de Freitas Moreira - RM557531 e Guilherme flores pereira de almeida RM554948
+
+---
 
 ## 📜 Licença
 
